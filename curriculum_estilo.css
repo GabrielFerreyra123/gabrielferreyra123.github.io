@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Roboto+Condensed&display=swap');
+
+/** ESTO CORRESPONDE A LA BARRA DE NAVEGACION */
+.nav-bar { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 20px;
+  background-color: rgb(192, 197, 223);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family:'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  padding: 0 0 0 0;
+}
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #e5f2f8;
+}
+/** ESTO CORRESPONDE A LA BARRA DE NAVEGACION */
+
+body {
+  
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#nombrecompleto {
+  font-size: 25px;
+  font-family:'Barlow', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+ 
+}
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    border-radius: 50%;
+    border: solid 8px rgb(192, 197, 223);
+    padding: 2px;
+    width: 110px;
+    height: 110px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+h1 {
+  text-align: center;
+  font-weight: 65px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+section {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid gray;
+  border-radius: 10px;
+  border-color: rgb(192, 197, 223);
+  border-width: 8px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  font-family:'Barlow', sans-serif;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-family:'Barlow', sans-serif;
+}
+h4 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-family:'Barlow', sans-serif;
+}
+p {
+  font-family:'Barlow', sans-serif;
+  font-size: 16px;
+}
+ul {
+  font-family:'Barlow', sans-serif;
+  font-size: 16px;
+  text-decoration: solid;
+  list-style-image: url('item.png');
+}
+
+button {
+  font-size: 20px;
+  font-family:'Barlow', sans-serif;
+  text-decoration-line: underline;
+}
+
+footer {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100px;
+}
+#toggle-social-links {
+  background-color: lightgray; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer;
+}
+#toggle-social-links:hover {
+  background-color: gray;
+}
+
